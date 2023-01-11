@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="container mx-auto h-screen bg-[#D9CDF7] text-[#271A45]">
+  <header></header>
+  <main class="h-full flex justify-center items-center flex-col">
+    <section class="product flex justify-center items-center gap-10">
+      <div class="image w-2/4 p-2">
+        <img class="icon float-right mr-32 cursor-pointer" src="./assets/vector-360.png" alt="" onclick="toggleMode()">
+        <img class="w-full imgGif" src="./assets/sofa-estatico.png" alt="">
+      </div>
+      <div class="description flex justify-start flex-col">
+        <p class="text-sm">CÓDIGO: 42404</p>
+        <h1 class="text-4xl">Sofá margot II - Rosé</h1>
+        <p class="text-2xl font-light mb-7">R$ 4.000</p>
+        <button class="w-2/3 h-10 border border-[#271A45] rounded-full hover:bg-[#F5D0FE]">ADICIONAR AO CARRINHO</button>
+      </div>
+    </section>
+
+    <section class="flex justify-center flex-col items-center mt-24">
+      <h2 class="text-2xl mb-6">Tecnologias Utilizada</h2>
+        <div class="w-14 h-14 flex justify-center items-center gap-4">
+          <img src="./assets/icons/html-icon.png" alt="">
+          <img src="./assets/icons/javascript-programming-language-icon.png" alt="">
+          <img src="./assets/icons/tailwind-css-icon.png" alt="">
+        </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
